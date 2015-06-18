@@ -28,13 +28,14 @@ group :test do
   gem 'spork-rails', '4.0.0'
   gem 'guard-spork', '1.5.0'
   gem 'childprocess', '0.5.6'
+  gem 'factory_girl_rails', '4.2.1'
 end
 
 
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
 gem 'jquery-rails', '3.0.4'
-gem 'turbolinks', '1.1.1'
+gem 'turbolinks', '~> 2.5.3'
 gem 'jbuilder', '1.0.2'
 gem 'tzinfo-data'
 
